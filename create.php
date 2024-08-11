@@ -12,7 +12,7 @@ function checkDuplicateProduct($value, $conn)
 
 		if ($row = $stmts->fetch()) {
 
-			return true;
+			return true; 
 		}
 
 		return false;
